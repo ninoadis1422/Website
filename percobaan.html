@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Consultant</title>
+    <link rel="stylesheet" href="percobaan.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <video autoplay loop muted plays-inline>
+        <source src="beach.mp4" type="video/mp4">
+      </video>
+      <div class="about">
+        <a href="AboutUS.html">About us</a>
+      </div>
+      <div class="header">
+        <h3 class="animate__animated animate__fadeInUp">The CAREER</br>CONSULTANT IN TECHNOLOGY</h3>
+        <h1 class="animate__animated animate__fadeInDownBig">EXPLORE YOURSELF</br>
+          <button type="button" class="explore">
+            <a href="#hero">Explore Now !</a>
+          </button>
+        </h1>
+      </div>
+    </div>
+
+    <section id="hero">
+      <div class="hero">
+        <div class="container1" data-aos="fade-right" data-aos-duration="2000">
+          <h2>Yuk, Temukan Jalan Karier yang Cocok Buat Kamu !!!</h2>
+          <img src="gambar1.png" alt="deskrpsi gambar" />
+        </div>
+  
+        <div class="container" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+          <h5>Deskripsikan Siapa Dirimu Sebenarnya!</h5>
+          <form id="careerForm">
+            <label for="name">Nama:</label>
+  
+            <input type="text" id="name" placeholder="Masukan Nama" required />
+  
+            <label for="interest">Minat Bidang:</label>
+            <select id="interest" required>
+              <option value="">--Pilih Minat Bidang--</option>
+              <option value="pengembang">Pengembangan Perangkat lunak</option>
+              <option value="data">Data & Kecerdasan Buatan</option>
+              <option value="keamanan">Keamanan</option>
+              <option value="design">Design & Pengalaman Pengguna</option>
+              <option value="manajemen & pendukung">Manajemen & Pendukung</option>
+            </select>
+  
+            <label for="skills">Keterampilan teknis (hard skill) :</label>
+            <input
+              type="text"
+              id="skills"
+              placeholder="Contoh: Pemrograman, Design, dll"
+              required
+            />
+  
+            <label for="personality">Keterampilan non-teknis (soft skill) :</label>
+            <input
+              type="text"
+              id="personality"
+              placeholder="Contoh: komunikasi Efektif, Manajemen Waktu"
+              required
+            />
+  
+            <label for="careervalue">Tujuan Karier :</label>
+            <input
+              type="text"
+              id="careervalue"
+              placeholder="Contoh: Menjadi Full-Stack Developer, Head of Front-end "
+              required/>
+            <button type="submit">
+              <a href="#deskripsi"></a>Mulai
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <section id="deskripsi">
+      <div class="deskripsi">
+        <div id="result" class="result" data-aos="fade-right" data-aos-duration="2000"></div>
+        <div class="container1">
+          <h4>
+            Hasil dari Career Consultant adalah cerminan dari hard skill dan soft skill yang kamu miliki dalam dunia teknologi.
+          </br></br>Namun, kunci sesungguhnya ada padamu.
+          <strong>Kerja keras, disiplin, dan semangat belajar hal-hal baru </strong>adalah fondasi untuk mewujudkan profesi impianmu.
+          </h4>
+          <h4>
+            <em>"NOT ONE DAY, BUT DAY ONE"</em>
+          </br>Jangan tunggu waktu yang sempurna — jadikan hari ini sebagai awal dari perubahan besar dalam hidupmu.
+          </h4>
+          
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <p class="icon" style="color: white ">
+        © 2025 Career Consultant — Create With <i class="bi bi-suit-heart-fill" style="color: red;"></i> by Nino Adi Saputra
+      </p>
+    </div>
+
+    <script src="SistemPakar.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

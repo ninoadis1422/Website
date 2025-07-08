@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0,0,0,0.512));
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .about {
+  text-align: right;
+  position: absolute;
+  width: 98%;
+  padding-top: 1.5rem;
+  z-index: 1;
+}
+
+.banner a {
+  color: rgba(255, 255, 255, 0.712);
+  text-decoration: none;
+}
+
+.banner a:hover {
+  color: rgba(0, 0, 0, 0.712);
+  text-decoration: underline;
+}
+
+.banner video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media(min-aspect-ratio: 16/9) {
+  .banner video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header img {
+  margin-top: 3rem;
+  width: 800px;
+  height: 200px;
+}
+
+.header button {
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 30px;
+  background-color: white;
+  margin-top: 0;
+}
+
+.hero {
+  display: flex;
+  background-color: #04050f;
+  background-size: cover;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: rgba(255, 255, 255, 0.527);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.container1 {
+  padding-top: none;
+  padding-left: 3rem;
+  max-width: 50%;
+  color: white;
+}
+
+.container1 img {
+  padding-left: 50px;
+  padding-top: 250px;
+}
+
+.deskripsi {
+  display: flex;
+  padding: 2rem;
+  background-color: #04050f;
+  background-size: cover;
+}
+
+h1 {
+  font-family: sans-serif;
+  margin-top: 13%;
+  font-size: 90px;
+  font-weight: 9000;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  padding-top: 1rem;
+  position: absolute;
+  width: 700px;
+}
+
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: 200;
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 5%;
+}
+
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 10px;
+  position: relative;
+  color: white;
+}
+
+h5 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: white;
+  font-size: 30px;
+  font-weight: 30px;
+}
+
+
+.banner .explore a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2d7c31;
+}
+
+.result {
+  background-color: #fffffffa;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 21px;
+  line-height: 1.6;
+  color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: left;
+  width: 3000px;
+  height: auto;
+  padding: 2rem;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #04050f;
+  background-size: cover;
+}
